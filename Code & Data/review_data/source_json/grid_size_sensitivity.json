@@ -1,0 +1,33 @@
+{
+  "analysis_design": "<str>",
+  "input_raw_csv": "<str>",
+  "cleaned_point_summary": {
+    "cleaned_points": "<int>",
+    "valid_orders": "<int>",
+    "noncontiguous_order_reuse": "<int>"
+  },
+  "grid_size_results": [
+    {
+      "grid_size_m": "<int>",
+      "n_rows": "<int>",
+      "n_cols": "<int>",
+      "total_cells": "<int>",
+      "active_cells": "<int>",
+      "active_share_full_grid": "<float>",
+      "spatiotemporal_samples": "<int>",
+      "top10_traffic_share": "<float>",
+      "rho_star": "<float>",
+      "speed_free": "<float>",
+      "speed_drop_percent": "<float>",
+      "hotspot_cells": "<int>",
+      "hotspot_share_active_cells": "<float>",
+      "rr_backbone_vs_nonbackbone": "<float>",
+      "n_binned_density_points": "<int>",
+      "corridor_congested": "<int>",
+      "corridor_not_congested": "<int>",
+      "noncorridor_congested": "<int>",
+      "noncorridor_not_congested": "<int>"
+    },
+    "... (6 items)"
+  ]
+}

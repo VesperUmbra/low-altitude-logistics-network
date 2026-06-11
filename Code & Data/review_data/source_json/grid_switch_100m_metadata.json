@@ -1,0 +1,7 @@
+{
+  "grid_size_m": "<int>",
+  "generated_from": "<str>",
+  "gini": "<float>",
+  "top1_share": "<float>",
+  "top10_share": "<float>"
+}

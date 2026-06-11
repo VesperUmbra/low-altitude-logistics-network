@@ -1,0 +1,39 @@
+{
+  "analysis_design": "<str>",
+  "notes": {
+    "density_definition": "<str>",
+    "subset_backbone_definition": "<str>"
+  },
+  "altitude_reference_quantiles_m": {
+    "p25": "<float>",
+    "p50": "<float>",
+    "p75": "<float>"
+  },
+  "bands": [
+    {
+      "band": "<str>",
+      "altitude_lower_m": null,
+      "altitude_upper_m": null,
+      "samples": "<int>",
+      "sample_share_percent": "<float>",
+      "active_cells": "<int>",
+      "subset_backbone_cells": "<int>",
+      "full_backbone_overlap_share": "<float>",
+      "rho_star": "<float>",
+      "speed_free": "<float>",
+      "speed_congested": "<float>",
+      "speed_drop_percent": "<float>",
+      "congestion_share_percent": "<float>",
+      "rr": "<float>",
+      "rr_ci_95_lower": "<float>",
+      "rr_ci_95_upper": "<float>",
+      "or_adj": "<float>",
+      "or_ci_95_lower": "<float>",
+      "or_ci_95_upper": "<float>",
+      "mean_altitude_p25_m": "<float>",
+      "mean_altitude_p50_m": "<float>",
+      "mean_altitude_p75_m": "<float>"
+    },
+    "... (6 items)"
+  ]
+}

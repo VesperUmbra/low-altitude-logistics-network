@@ -1,0 +1,8 @@
+{
+  "density_definition": "<str>",
+  "flow_definition": "<str>",
+  "spacing_surrogate_definition": "<str>",
+  "all_windows": "<int>",
+  "away_from_endpoint_windows": "<int>",
+  "rho_star_unique_reference": "<float>"
+}

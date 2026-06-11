@@ -1,0 +1,7 @@
+{
+  "terminal_cells_identified": "<int>",
+  "samples_after_exclusion": "<int>",
+  "exclusion_ratio": "<float>",
+  "estimated_rho_star_excluded": "<float>",
+  "original_rho_star": "<float>"
+}

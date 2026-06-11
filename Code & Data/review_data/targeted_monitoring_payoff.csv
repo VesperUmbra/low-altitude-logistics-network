@@ -1,0 +1,6 @@
+strategy,budget_share_active_cells,budget_cell_count,captured_exceedance_samples,captured_exceedance_share,captured_traffic_share,lift_vs_random_exceedance,lift_vs_random_traffic
+
+top_traffic_cells,0.001,12,18310,0.38133916484431946,0.1359289253625277,381.33916484431944,135.9289253625277
+
+top_traffic_cells,0.005,60,35798,0.7455586795792981,0.29521305893286354,149.1117359158596,59.04261178657271
+

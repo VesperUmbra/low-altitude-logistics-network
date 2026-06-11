@@ -1,0 +1,16 @@
+{
+  "interpretation": "<str>",
+  "distance_bin_summary": [
+    {
+      "dist_bin": "<str>",
+      "median_effective_speed_kmh": "<float>",
+      "faster_than_20kph_ref": "<bool>",
+      "faster_than_25kph_ref": "<bool>",
+      "faster_than_30kph_ref": "<bool>"
+    },
+    "... (5 items)"
+  ],
+  "notes": [
+    "... (2 items)"
+  ]
+}

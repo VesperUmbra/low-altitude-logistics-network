@@ -1,0 +1,18 @@
+{
+  "rho_star": "<float>",
+  "free_flow_samples": "<int>",
+  "congested_flow_samples": "<int>",
+  "free_flow_density_range": [
+    "... (2 items)"
+  ],
+  "congested_flow_density_range": [
+    "... (2 items)"
+  ],
+  "free_flow_speed_mean": "<float>",
+  "congested_flow_speed_mean": "<float>",
+  "free_flow_speed_std": "<float>",
+  "congested_flow_speed_std": "<float>",
+  "speed_drop_at_rho_star": "<float>",
+  "free_flow_slope": "<float>",
+  "congested_flow_slope": "<float>"
+}

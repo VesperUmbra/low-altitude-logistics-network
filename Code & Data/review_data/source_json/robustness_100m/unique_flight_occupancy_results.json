@@ -1,0 +1,21 @@
+{
+  "measurement": "<str>",
+  "rho_star_unique": "<float>",
+  "correlation_coefficient_unique": "<float>",
+  "congestion_share_percent_unique": "<float>",
+  "speed_free_unique": "<float>",
+  "speed_congested_unique": "<float>",
+  "speed_drop_percent_unique": "<float>",
+  "corridor_congested_unique": "<int>",
+  "corridor_not_congested_unique": "<int>",
+  "noncorridor_congested_unique": "<int>",
+  "noncorridor_not_congested_unique": "<int>",
+  "rr_unique": "<float>",
+  "rr_ci_95_lower_unique": "<float>",
+  "rr_ci_95_upper_unique": "<float>",
+  "or_adj_unique": "<float>",
+  "or_ci_95_lower_unique": "<float>",
+  "or_ci_95_upper_unique": "<float>",
+  "fisher_p_unique": "<float>",
+  "n_samples_total_unique": "<int>"
+}

@@ -1,0 +1,6 @@
+rank,grid_cell_id,total_points,traffic_share,cumulative_traffic_share,active_days,active_hours,is_backbone_cell,backbone_definition
+1,378_730,97465,0.02520334117201678,0.02520334117201678,21,10,True,top_10_percent_active_cells_by_total_points
+2,329_762,60430,0.01562651112732749,0.04082985229934427,21,10,True,top_10_percent_active_cells_by_total_points
+3,233_640,51793,0.013393081099084441,0.054222933398428715,21,9,True,top_10_percent_active_cells_by_total_points
+4,391_726,48019,0.01241716759594802,0.06664010099437673,21,9,True,top_10_percent_active_cells_by_total_points
+5,277_771,39731,0.010273985000824899,0.07691408599520162,20,8,True,top_10_percent_active_cells_by_total_points

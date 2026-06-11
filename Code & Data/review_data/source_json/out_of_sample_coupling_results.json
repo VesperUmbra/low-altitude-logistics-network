@@ -1,0 +1,61 @@
+{
+  "train_days": "<int>",
+  "test_days": "<int>",
+  "corridor_cells_train": "<int>",
+  "corridor_congested_test": "<int>",
+  "corridor_not_test": "<int>",
+  "noncorridor_congested_test": "<int>",
+  "noncorridor_not_test": "<int>",
+  "risk_corridor_test": "<float>",
+  "risk_noncorridor_test": "<float>",
+  "rr_test": "<float>",
+  "rr_ci_95_lower": "<float>",
+  "rr_ci_95_upper": "<float>",
+  "or_adj_test": "<float>",
+  "or_ci_95_lower": "<float>",
+  "or_ci_95_upper": "<float>",
+  "fisher_p_test": "<float>",
+  "split_design": "<str>",
+  "forward_split": {
+    "train_days": "<int>",
+    "test_days": "<int>",
+    "corridor_cells_train": "<int>",
+    "corridor_congested_test": "<int>",
+    "corridor_not_test": "<int>",
+    "noncorridor_congested_test": "<int>",
+    "noncorridor_not_test": "<int>",
+    "risk_corridor_test": "<float>",
+    "risk_noncorridor_test": "<float>",
+    "rr_test": "<float>",
+    "rr_ci_95_lower": "<float>",
+    "rr_ci_95_upper": "<float>",
+    "or_adj_test": "<float>",
+    "or_ci_95_lower": "<float>",
+    "or_ci_95_upper": "<float>",
+    "fisher_p_test": "<float>"
+  },
+  "reverse_split": {
+    "train_days": "<int>",
+    "test_days": "<int>",
+    "corridor_cells_train": "<int>",
+    "corridor_congested_test": "<int>",
+    "corridor_not_test": "<int>",
+    "noncorridor_congested_test": "<int>",
+    "noncorridor_not_test": "<int>",
+    "risk_corridor_test": "<float>",
+    "risk_noncorridor_test": "<float>",
+    "rr_test": "<float>",
+    "rr_ci_95_lower": "<float>",
+    "rr_ci_95_upper": "<float>",
+    "or_adj_test": "<float>",
+    "or_ci_95_lower": "<float>",
+    "or_ci_95_upper": "<float>",
+    "fisher_p_test": "<float>"
+  },
+  "rr_range": [
+    "... (2 items)"
+  ],
+  "or_range": [
+    "... (2 items)"
+  ]
+}

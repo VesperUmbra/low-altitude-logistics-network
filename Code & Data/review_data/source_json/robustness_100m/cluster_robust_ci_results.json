@@ -1,0 +1,17 @@
+{
+  "n_bootstraps": "<int>",
+  "n_clusters": "<int>",
+  "rr_point_estimate": "<float>",
+  "rr_bootstrap_mean": "<float>",
+  "rr_bootstrap_median": "<float>",
+  "rr_ci_95_lower": "<float>",
+  "rr_ci_95_upper": "<float>",
+  "n_finite_rr_bootstraps": "<int>",
+  "or_point_estimate": "<float>",
+  "or_bootstrap_mean": "<float>",
+  "or_bootstrap_median": "<float>",
+  "or_ci_95_lower": "<float>",
+  "or_ci_95_upper": "<float>",
+  "log_or_ci_95_lower": "<float>",
+  "log_or_ci_95_upper": "<float>"
+}

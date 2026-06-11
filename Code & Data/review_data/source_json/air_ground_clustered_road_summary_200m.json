@@ -1,0 +1,26 @@
+{
+  "analysis_design": "<str>",
+  "routing_engine": "<str>",
+  "merge_threshold_m": "<float>",
+  "raw_flight_records_in_trajectory_table": "<int>",
+  "od_pair_records_available": "<int>",
+  "merged_endpoint_clusters": "<int>",
+  "unique_directed_route_connections": "<int>",
+  "unique_undirected_route_connections": "<int>",
+  "orders_on_nonself_directed_routes": "<int>",
+  "self_merged_orders_excluded": "<int>",
+  "official_route_count_2023": "<int>",
+  "overall_weighted_by_orders": {
+    "median_air_distance_km": "<float>",
+    "median_road_distance_km": "<float>",
+    "median_air_duration_min": "<float>",
+    "median_osrm_road_duration_min": "<float>",
+    "median_peak25_road_duration_min": "<float>",
+    "median_road_to_air_distance_ratio": "<float>",
+    "median_time_delta_osrm_min": "<float>",
+    "median_time_delta_peak25_min": "<float>",
+    "share_aerial_faster_osrm": "<float>",
+    "share_aerial_faster_peak25": "<float>",
+    "share_aerial_faster_bus1757": "<float>"
+  }
+}

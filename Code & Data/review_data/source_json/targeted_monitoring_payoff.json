@@ -1,0 +1,51 @@
+{
+  "payoff_table": [
+    {
+      "strategy": "<str>",
+      "budget_share_active_cells": "<float>",
+      "budget_cell_count": "<int>",
+      "captured_exceedance_samples": "<int>",
+      "captured_exceedance_share": "<float>",
+      "captured_traffic_share": "<float>",
+      "lift_vs_random_exceedance": "<float>",
+      "lift_vs_random_traffic": "<float>"
+    },
+    "... (9 items)"
+  ],
+  "random_baseline_table": [
+    {
+      "strategy": "<str>",
+      "cells_monitored": "<int>",
+      "mean_random_exceedance_share": "<float>",
+      "p95_random_exceedance_share": "<float>",
+      "observed_exceedance_share": "<float>",
+      "observed_over_random_mean": "<float>",
+      "observed_over_random_p95": "<float>"
+    },
+    "... (3 items)"
+  ],
+  "figure_spec": {
+    "figure_purpose": "<str>",
+    "panel_a": {
+      "title": "<str>",
+      "x": "<str>",
+      "y": "<str>",
+      "series": [
+        "... (5 items)"
+      ]
+    },
+    "panel_b": {
+      "title": "<str>",
+      "metric": "<str>",
+      "series": [
+        "... (4 items)"
+      ]
+    },
+    "headline_numbers": {
+      "top_traffic_1pct_exceedance_share": "<float>",
+      "real_station_buffer1_exceedance_share": "<float>",
+      "real_station_buffer1_active_share": "<float>",
+      "real_station_buffer1_lift_over_random_mean": "<float>"
+    }
+  }
+}

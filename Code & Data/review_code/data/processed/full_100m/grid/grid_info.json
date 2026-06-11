@@ -1,0 +1,14 @@
+{
+  "grid_size_m": "<int>",
+  "time_window_s": "<int>",
+  "n_rows": "<int>",
+  "n_cols": "<int>",
+  "total_cells": "<int>",
+  "min_lat": "<float>",
+  "max_lat": "<float>",
+  "min_lon": "<float>",
+  "max_lon": "<float>",
+  "meters_per_degree_lat": "<int>",
+  "meters_per_degree_lon": "<float>",
+  "creation_time": "<str>"
+}

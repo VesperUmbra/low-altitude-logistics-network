@@ -1,0 +1,6 @@
+anchor_set,site_name,platform,note,open_time,lon,lat,grid_row,grid_col,grid_cell_id,is_test_site,is_active_cell,is_backbone_cell,is_hotspot_cell,is_endpoint_cell
+all_shenzhen_sites,丰翼无人机燕罗航站,顺丰丰翼,,2020年11月24日-2025年5月1日,113.8750032597046,22.8023406743471,546,579,546_579,False,True,True,True,True
+all_shenzhen_sites,丰翼无人机铁甲航站,顺丰丰翼,,2020年11月24日-2025年5月1日,113.880361400949,22.78903750092817,531,584,531_584,False,True,True,True,True
+all_shenzhen_sites,丰翼无人机沙浦围航站,顺丰丰翼,,2020年11月24日-2025年5月1日,113.8152027025152,22.78092375949686,522,517,522_517,False,False,False,False,False
+all_shenzhen_sites,丰翼无人机深翔工业园航站,顺丰丰翼,,2020年11月24日-2025年5月1日,113.8293161151281,22.77339282195026,514,532,514_532,False,False,False,False,False
+all_shenzhen_sites,丰翼无人机大田洋航站,顺丰丰翼,,2022年10月7日-2025年5月1日,113.8652579304189,22.76312747141772,502,569,502_569,False,True,True,True,True

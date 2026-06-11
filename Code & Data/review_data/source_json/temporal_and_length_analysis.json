@@ -1,0 +1,147 @@
+{
+  "analysis_design": "<str>",
+  "n_days": "<int>",
+  "n_trajectories": "<int>",
+  "n_points": "<int>",
+  "hourly": {
+    "peak_slot_by_points": {
+      "slot_index": "<int>",
+      "slot_label": "<str>",
+      "total_points": "<int>",
+      "share_of_points": "<float>",
+      "mean_active_flights_per_day": "<float>",
+      "median_active_flights_per_day": "<int>",
+      "peak_active_flights_in_any_day": "<int>",
+      "days_with_activity": "<int>"
+    },
+    "peak_slot_by_mean_active_flights": {
+      "slot_index": "<int>",
+      "slot_label": "<str>",
+      "total_points": "<int>",
+      "share_of_points": "<float>",
+      "mean_active_flights_per_day": "<float>",
+      "median_active_flights_per_day": "<int>",
+      "peak_active_flights_in_any_day": "<int>",
+      "days_with_activity": "<int>"
+    }
+  },
+  "halfhour": {
+    "peak_slot_by_points": {
+      "slot_index": "<int>",
+      "slot_label": "<str>",
+      "total_points": "<int>",
+      "share_of_points": "<float>",
+      "mean_active_flights_per_day": "<float>",
+      "median_active_flights_per_day": "<int>",
+      "peak_active_flights_in_any_day": "<int>",
+      "days_with_activity": "<int>"
+    },
+    "peak_slot_by_mean_active_flights": {
+      "slot_index": "<int>",
+      "slot_label": "<str>",
+      "total_points": "<int>",
+      "share_of_points": "<float>",
+      "mean_active_flights_per_day": "<float>",
+      "median_active_flights_per_day": "<int>",
+      "peak_active_flights_in_any_day": "<int>",
+      "days_with_activity": "<int>"
+    }
+  },
+  "altitude_point_summary": {
+    "n_points": "<int>",
+    "summary_m": {
+      "mean": "<float>",
+      "median": "<float>",
+      "p25": "<float>",
+      "p75": "<float>",
+      "p90": "<float>",
+      "p95": "<float>",
+      "p99": "<float>",
+      "max": "<float>",
+      "min": "<float>"
+    },
+    "band_shares": {
+      "lt_60m": "<float>",
+      "60_120m": "<float>",
+      "120_180m": "<float>",
+      "180_240m": "<float>",
+      "ge_240m": "<float>"
+    }
+  },
+  "trajectory_length_summary": {
+    "n_trajectories": "<int>",
+    "path_length_km": {
+      "mean": "<float>",
+      "median": "<float>",
+      "p25": "<float>",
+      "p75": "<float>",
+      "p90": "<float>",
+      "p95": "<float>",
+      "max": "<float>"
+    },
+    "od_distance_km": {
+      "mean": "<float>",
+      "median": "<float>",
+      "p25": "<float>",
+      "p75": "<float>",
+      "p90": "<float>",
+      "p95": "<float>",
+      "max": "<float>"
+    },
+    "duration_minutes": {
+      "mean": "<float>",
+      "median": "<float>",
+      "p25": "<float>",
+      "p75": "<float>",
+      "p90": "<float>",
+      "p95": "<float>",
+      "max": "<float>"
+    },
+    "distance_bins": {
+      "lt_2km": {
+        "count": "<int>",
+        "share": "<float>"
+      },
+      "2_5km": {
+        "count": "<int>",
+        "share": "<float>"
+      },
+      "5_10km": {
+        "count": "<int>",
+        "share": "<float>"
+      },
+      "10_15km": {
+        "count": "<int>",
+        "share": "<float>"
+      },
+      "15_20km": {
+        "count": "<int>",
+        "share": "<float>"
+      },
+      "ge_20km": {
+        "count": "<int>",
+        "share": "<float>"
+      }
+    },
+    "path_length_km_by_vendor": {
+      "SF": {
+        "mean": "<float>",
+        "median": "<float>",
+        "p25": "<float>",
+        "p75": "<float>",
+        "p90": "<float>",
+        "p95": "<float>",
+        "max": "<float>"
+      },
+      "MT": {
+        "mean": "<float>",
+        "median": "<float>",
+        "p25": "<float>",
+        "p75": "<float>",
+        "p90": "<float>",
+        "p95": "<float>",
+        "max": "<float>"
+      }
+    }
+  }
+}

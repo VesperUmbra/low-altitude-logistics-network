@@ -1,0 +1,8 @@
+{
+  "timestamp": "<str>",
+  "total_rows_processed": "<int>",
+  "chunks_processed": "<int>",
+  "elapsed_time_seconds": "<float>",
+  "rows_per_second": "<float>",
+  "completion_percentage": "<float>"
+}

@@ -1,0 +1,125 @@
+{
+  "design": "<str>",
+  "backbone_cells": "<int>",
+  "continuity": {
+    "n_components": "<int>",
+    "largest_component_cells": "<int>",
+    "largest_component_share": "<float>",
+    "components_covering_50pct_cells": "<int>",
+    "components_covering_80pct_cells": "<int>",
+    "singleton_component_share": "<float>",
+    "cells_in_components_le3_share": "<float>",
+    "mean_backbone_degree": "<float>",
+    "degree_le1_share": "<float>",
+    "degree_eq2_share": "<float>",
+    "degree_ge3_share": "<float>",
+    "top10_component_sizes": [
+      "... (10 items)"
+    ]
+  },
+  "component_shape_ge5": {
+    "components_ge5_cells": "<int>",
+    "cells_in_components_ge5": "<int>",
+    "cells_in_components_ge5_share": "<float>",
+    "weighted_median_pca_elongation_ge5": "<float>",
+    "weighted_median_bbox_aspect_ge5": "<float>",
+    "largest_component_pca_elongation": "<float>",
+    "largest_component_bbox_aspect": "<float>",
+    "largest_component_major_axis_angle_deg": "<float>",
+    "component_axis_axial_resultant_ge5": "<float>",
+    "top10_large_component_shapes": [
+      {
+        "component_id": "<int>",
+        "cells": "<int>",
+        "pca_elongation": "<float>",
+        "bbox_aspect_ratio": "<float>",
+        "major_axis_angle_deg": "<float>"
+      },
+      "... (10 items)"
+    ]
+  },
+  "moving_point_directionality_ge5": {
+    "moving_speed_threshold_mps": "<float>",
+    "moving_points_total": "<int>",
+    "moving_backbone_points": "<int>",
+    "moving_points_in_components_ge5": "<int>",
+    "weighted_median_component_axial_resultant": "<float>",
+    "weighted_median_axis_deviation_deg": "<float>",
+    "components_axial_r_ge_0_8": "<int>",
+    "moving_point_share_components_axial_r_ge_0_8": "<float>",
+    "components_axial_r_ge_0_5": "<int>",
+    "moving_point_share_components_axial_r_ge_0_5": "<float>",
+    "top10_components_by_moving_points": [
+      {
+        "component_id": "<int>",
+        "moving_points": "<int>",
+        "component_axial_resultant": "<float>",
+        "median_axis_deviation_deg": "<float>",
+        "major_axis_angle_deg": "<float>"
+      },
+      "... (10 items)"
+    ]
+  },
+  "random_active_cell_null": {
+    "n_permutations": "<int>",
+    "design": "<str>",
+    "n_components": {
+      "n_values": "<int>",
+      "n_finite": "<int>",
+      "observed": "<float>",
+      "mean": "<float>",
+      "median": "<float>",
+      "ci_95_lower": "<float>",
+      "ci_95_upper": "<float>",
+      "max": "<float>",
+      "empirical_p_ge_observed": "<float>",
+      "empirical_p_le_observed": "<float>"
+    },
+    "largest_component_share": {
+      "n_values": "<int>",
+      "n_finite": "<int>",
+      "observed": "<float>",
+      "mean": "<float>",
+      "median": "<float>",
+      "ci_95_lower": "<float>",
+      "ci_95_upper": "<float>",
+      "max": "<float>",
+      "empirical_p_ge_observed": "<float>"
+    },
+    "components_covering_50pct_cells": {
+      "n_values": "<int>",
+      "n_finite": "<int>",
+      "observed": "<float>",
+      "mean": "<float>",
+      "median": "<float>",
+      "ci_95_lower": "<float>",
+      "ci_95_upper": "<float>",
+      "max": "<float>",
+      "empirical_p_ge_observed": "<float>",
+      "empirical_p_le_observed": "<float>"
+    },
+    "degree_ge3_share": {
+      "n_values": "<int>",
+      "n_finite": "<int>",
+      "observed": "<float>",
+      "mean": "<float>",
+      "median": "<float>",
+      "ci_95_lower": "<float>",
+      "ci_95_upper": "<float>",
+      "max": "<float>",
+      "empirical_p_ge_observed": "<float>"
+    },
+    "degree_le1_share": {
+      "n_values": "<int>",
+      "n_finite": "<int>",
+      "observed": "<float>",
+      "mean": "<float>",
+      "median": "<float>",
+      "ci_95_lower": "<float>",
+      "ci_95_upper": "<float>",
+      "max": "<float>",
+      "empirical_p_ge_observed": "<float>",
+      "empirical_p_le_observed": "<float>"
+    }
+  }
+}

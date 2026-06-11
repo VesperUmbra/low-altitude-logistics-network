@@ -1,0 +1,6 @@
+specification_id,description,rho_star,speed_drop_percent,n_bins,bin_width,min_samples,weighting,source_file
+main_equal_weight_bins,Operational main-text breakpoint specification.,11.5,,,1,10,equal_weight_bins,review_data/source_json/summary_results.json
+main_equal_weight_bins,Alternative breakpoint specification retained in the SI.,11.5,84.62265876305597,72.0,1,10,equal_weight_bins,review_data/source_json/summary_results.json
+count_weighted_bins,Alternative breakpoint specification retained in the SI.,4.5,87.31356827610342,72.0,1,10,count_weighted,review_data/source_json/summary_results.json
+equal_weight_bins_min50,Alternative breakpoint specification retained in the SI.,10.5,85.1657897380225,55.0,1,50,equal_weight_bins,review_data/source_json/summary_results.json
+equal_weight_bins_width2,Alternative breakpoint specification retained in the SI.,11.0,87.19432428204466,36.0,2,20,equal_weight_bins,review_data/source_json/summary_results.json

@@ -1,0 +1,77 @@
+{
+  "analysis_spec": {
+    "terrain_source": "<str>",
+    "ground_like_threshold_m": "<float>",
+    "building_search_radius_m": "<float>",
+    "building_height_tolerance_m": "<float>",
+    "station_adjacent_threshold_m": "<float>"
+  },
+  "source_files": {
+    "endpoint_cells": "<str>",
+    "station_inventory": "<str>",
+    "building_inventory": "<str>",
+    "terrain_cache": "<str>"
+  },
+  "overall": {
+    "endpoint_cells": "<int>",
+    "endpoint_touches": "<int>",
+    "median_rel_ground_m": "<float>",
+    "p25_rel_ground_m": "<float>",
+    "p75_rel_ground_m": "<float>",
+    "median_nearest_station_m": "<float>",
+    "ground_like": {
+      "cells": "<int>",
+      "cell_share": "<float>",
+      "touches": "<int>",
+      "touch_share": "<float>"
+    },
+    "building_compatible": {
+      "cells": "<int>",
+      "cell_share": "<float>",
+      "touches": "<int>",
+      "touch_share": "<float>"
+    },
+    "elevated_unresolved": {
+      "cells": "<int>",
+      "cell_share": "<float>",
+      "touches": "<int>",
+      "touch_share": "<float>"
+    }
+  },
+  "station_adjacent_subset": {
+    "endpoint_cells": "<int>",
+    "endpoint_touches": "<int>",
+    "median_rel_ground_m": "<float>",
+    "p25_rel_ground_m": "<float>",
+    "p75_rel_ground_m": "<float>",
+    "median_nearest_station_m": "<float>",
+    "ground_like": {
+      "cells": "<int>",
+      "cell_share": "<float>",
+      "touches": "<int>",
+      "touch_share": "<float>"
+    },
+    "building_compatible": {
+      "cells": "<int>",
+      "cell_share": "<float>",
+      "touches": "<int>",
+      "touch_share": "<float>"
+    },
+    "elevated_unresolved": {
+      "cells": "<int>",
+      "cell_share": "<float>",
+      "touches": "<int>",
+      "touch_share": "<float>"
+    }
+  },
+  "sensitivity_radius_tolerance": [
+    {
+      "search_radius_m": "<int>",
+      "height_tolerance_m": "<int>",
+      "class_name": "<str>",
+      "cell_share": "<float>",
+      "touch_share": "<float>"
+    },
+    "... (18 items)"
+  ]
+}

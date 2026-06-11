@@ -1,0 +1,60 @@
+{
+  "design": "<str>",
+  "followup_archive": {
+    "flights": "<int>",
+    "dates": [
+      "... (4 items)"
+    ],
+    "date_count": "<int>",
+    "points_in_grid": "<int>",
+    "named_route_codes": [
+      "... (7 items)"
+    ]
+  },
+  "route_persistence": {
+    "reference_skeleton_support": "<int>",
+    "reference_skeleton_edges": "<int>",
+    "weighted_edge_share_on_2023_skeleton": "<float>",
+    "median_flight_edge_share_on_2023_skeleton": "<float>",
+    "p25_flight_edge_share_on_2023_skeleton": "<float>",
+    "share_flights_edge_coverage_ge_80pct": "<float>",
+    "point_share_in_2023_backbone": "<float>",
+    "unique_cell_share_in_2023_backbone": "<float>"
+  },
+  "interface_persistence": {
+    "endpoint_buffer1_matches": "<int>",
+    "endpoint_buffer1_match_share": "<float>",
+    "share_flights_both_endpoints_in_2023_endpoint_buffer1": "<float>",
+    "station_buffer1_matches": "<int>",
+    "station_buffer1_match_share": "<float>",
+    "share_flights_both_endpoints_in_station_buffer1": "<float>"
+  },
+  "localized_slowing_persistence": {
+    "speed_threshold_mps": "<float>",
+    "slow_points_total": "<int>",
+    "slow_points_in_own_endpoint_buffer1": "<int>",
+    "slow_point_share_in_own_endpoint_buffer1": "<float>",
+    "all_point_share_in_own_endpoint_buffer1": "<float>",
+    "slowing_localization_lift": "<float>"
+  },
+  "by_year": {
+    "2025": {
+      "flights": "<int>",
+      "dates": [
+        "... (1 items)"
+      ],
+      "weighted_edge_share_on_2023_skeleton": "<float>",
+      "median_edge_share_on_2023_skeleton": "<float>",
+      "share_flights_edge_coverage_ge_80pct": "<float>"
+    },
+    "2026": {
+      "flights": "<int>",
+      "dates": [
+        "... (3 items)"
+      ],
+      "weighted_edge_share_on_2023_skeleton": "<float>",
+      "median_edge_share_on_2023_skeleton": "<float>",
+      "share_flights_edge_coverage_ge_80pct": "<float>"
+    }
+  }
+}

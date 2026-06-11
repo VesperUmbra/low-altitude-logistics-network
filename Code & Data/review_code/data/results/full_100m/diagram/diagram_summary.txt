@@ -1,0 +1,37 @@
+============================================================
+Congestion Phase Transition Analysis — 100% Full Data
+============================================================
+Generated: 2026-06-03 10:37:11
+
+Basic Statistics:
+  Total spatiotemporal samples: 1,423,376
+  Valid speed samples: 1,423,376
+  Density range: 1 – 137
+  Speed range: 0.00 – 39.96 m/s
+
+Critical Density Analysis:
+  Consensus critical density ρ*: 11.50
+  Speed–density correlation: −0.418 (p = 0.000e+00)
+  Congestion incidence rate: 3.37%
+  Congested samples: 48,015
+
+Estimation Methods:
+  piecewise_regression: ρ* = 11.50, speed drop = 21.2%
+  inflection_analysis:  ρ* = 2.50,  speed drop = 48.6%
+
+Fundamental Diagram Metrics:
+  Free-flow bins: 10
+  Congested-flow bins: 62
+  Free-flow mean speed: 7.37 m/s
+  Congested-flow mean speed: 1.13 m/s
+  Speed drop at critical point: 21.2%
+  Free-flow slope: −1.2926
+  Congested-flow slope: −0.0040
+
+Interpretation:
+  1. Critical density ρ* = 11.50 indicates that when local density exceeds
+     this threshold, the system transitions from free-flow to congested regime.
+  2. The negative speed–density correlation (−0.418) confirms that
+     increasing density leads to declining speed.
+  3. 3.4% of samples are in the congested regime, suggesting that
+     current operations frequently approach the unstable boundary.

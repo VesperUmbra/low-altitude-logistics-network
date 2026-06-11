@@ -1,0 +1,50 @@
+{
+  "analysis_design": "<str>",
+  "input_archive": "<str>",
+  "raw_unique_endpoint_cells": "<int>",
+  "raw_unique_undirected_route_pairs_100m_cells": "<int>",
+  "threshold_summaries": [
+    {
+      "merge_threshold_m": "<int>",
+      "merged_endpoint_clusters": "<int>",
+      "unique_directed_route_connections": "<int>",
+      "unique_undirected_route_connections": "<int>",
+      "self_merged_orders": "<int>",
+      "nonself_order_share": "<float>",
+      "difference_from_official_156": "<int>"
+    },
+    "... (4 items)"
+  ],
+  "chosen_threshold_m": "<int>",
+  "chosen_threshold_summary": {
+    "merge_threshold_m": "<int>",
+    "merged_endpoint_clusters": "<int>",
+    "unique_directed_route_connections": "<int>",
+    "unique_undirected_route_connections": "<int>",
+    "self_merged_orders": "<int>",
+    "nonself_order_share": "<float>",
+    "difference_from_official_156": "<int>"
+  },
+  "official_route_benchmark": {
+    "cumulative_uav_routes_end_2023": "<int>",
+    "benchmark_description": "<str>"
+  },
+  "station_distance_check": {
+    "operational_site_count": "<int>",
+    "pairs_within_threshold": "<int>",
+    "threshold_m": "<int>",
+    "nearest_pair": {
+      "distance_m": "<float>",
+      "site_a": "<str>",
+      "site_b": "<str>"
+    },
+    "pairs_within_threshold_detail": [
+      {
+        "distance_m": "<float>",
+        "site_a": "<str>",
+        "site_b": "<str>"
+      },
+      "... (1 items)"
+    ]
+  }
+}

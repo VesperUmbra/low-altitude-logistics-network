@@ -1,0 +1,25 @@
+{
+  "routes": [
+    {
+      "edge_id": "<str>",
+      "source_cluster": "<int>",
+      "target_cluster": "<int>",
+      "order_support": "<int>",
+      "source_lon": "<float>",
+      "source_lat": "<float>",
+      "target_lon": "<float>",
+      "target_lat": "<float>",
+      "road_distance_km": "<float>",
+      "median_air_distance_km": "<float>",
+      "median_air_duration_min": "<float>",
+      "road_duration_osrm_min": "<float>",
+      "geometry": {
+        "coordinates": [
+          "... (37 items)"
+        ],
+        "type": "<str>"
+      }
+    },
+    "... (60 items)"
+  ]
+}

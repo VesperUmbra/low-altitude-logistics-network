@@ -1,0 +1,12 @@
+{
+  "endpoint_cells": "<int>",
+  "endpoint_share_active_cells": "<float>",
+  "endpoint_corridor_overlap": "<float>",
+  "hotspot_cells_overlapping_endpoints": "<int>",
+  "hotspot_overlap_share": "<float>",
+  "congested_samples_in_endpoint_cells_share": "<float>",
+  "top_10pct_endpoint_cells": "<int>",
+  "congested_samples_in_top_10pct_endpoint_cells_share": "<float>",
+  "congested_samples_within_1cell_of_endpoints_share": "<float>",
+  "congested_samples_within_2cells_of_endpoints_share": "<float>"
+}

@@ -1,0 +1,28 @@
+============================================================
+100% Full Data Gridding Summary Report
+============================================================
+Generated: 2026-06-03 10:35:12
+
+Basic Statistics:
+  Raw data points: 3,867,146
+  Gridded data points: 3,867,146
+  Gridding retention rate: 100.0%
+
+Spatial Grid Statistics:
+  Total spatial cells: 12,159
+  Cells with data: 12,159
+  Mean points per cell: 318.0
+  Max points in a cell: 97,465
+  Top 10% cells carry: 76.3% of traffic
+
+Spatiotemporal Grid Statistics:
+  Total spatiotemporal cells: 1,423,376
+  Mean density (points/cell): 2.72
+  Max density: 137
+  Mean speed: 12.77 m/s
+  Time windows: 7,521
+
+Grid Parameters:
+  Spatial grid size: 100 m
+  Time window size: 120 s (2.0 min)
+  Spatial extent: 22.310°–22.870°N, 113.310°–114.250°E

@@ -1,0 +1,6 @@
+vendor,cluster_id,centroid_lat,centroid_lon,member_count,degree,strength_orders,clustering_coeff,component_id,component_size,betweenness_invflow,betweenness_invflow_norm,member_cells
+MT,63,22.71635,114.237025,2,6,3078,0.0,4,7,15.0,0.005553,446_948;447_950
+MT,64,22.7134,114.2398,2,1,757,0.0,4,7,0.0,0.0,442_951;444_952
+MT,65,22.72334,114.24735,2,1,237,0.0,4,7,0.0,0.0,454_959;454_960
+MT,66,22.7183,114.2268,1,1,1695,0.0,4,7,0.0,0.0,448_938
+MT,67,22.7156,114.248,1,1,386,0.0,4,7,0.0,0.0,445_960

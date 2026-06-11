@@ -1,0 +1,23 @@
+{
+  "estimates": [
+    {
+      "method": "<str>",
+      "rho_star": "<float>",
+      "speed_drop": "<float>"
+    },
+    "... (2 items)"
+  ],
+  "consensus_rho_star": "<float>",
+  "correlation_coefficient": "<float>",
+  "correlation_p_value": "<float>",
+  "congestion_share_percent": "<float>",
+  "n_samples_total": "<int>",
+  "n_congested_samples": "<int>",
+  "piecewise_settings": {
+    "input": "<str>",
+    "bin_width_points": "<int>",
+    "min_bin_samples": "<int>",
+    "weighting": "<str>"
+  },
+  "analysis_time": "<str>"
+}

@@ -1,0 +1,61 @@
+{
+  "rho_star_used": "<float>",
+  "source_raw_counts": {
+    "cleaned_points": "<int>",
+    "valid_orders": "<int>",
+    "active_cells": "<int>",
+    "hotspot_cells": "<int>",
+    "total_cell_window_samples": "<int>",
+    "total_exceedance_samples": "<int>"
+  },
+  "cutoff_rows": [
+    {
+      "cutoff_share": "<float>",
+      "cutoff_label": "<str>",
+      "active_cells": "<int>",
+      "backbone_cells": "<int>",
+      "backbone_cell_share": "<float>",
+      "traffic_points_in_backbone": "<int>",
+      "traffic_share": "<float>",
+      "hotspot_cells_total": "<int>",
+      "hotspot_cells_covered": "<int>",
+      "hotspot_cells_covered_share": "<float>",
+      "total_cell_window_samples": "<int>",
+      "backbone_cell_window_samples": "<int>",
+      "total_exceedance_samples": "<int>",
+      "exceedance_samples_covered": "<int>",
+      "exceedance_samples_covered_share": "<float>",
+      "risk_backbone": "<float>",
+      "risk_non_backbone": "<float>",
+      "rr": "<float>",
+      "rr_ci_95_lower": "<float>",
+      "rr_ci_95_upper": "<float>",
+      "or_adj": "<float>",
+      "or_ci_95_lower": "<float>",
+      "or_ci_95_upper": "<float>",
+      "contingency_a": "<int>",
+      "contingency_b": "<int>",
+      "contingency_c": "<int>",
+      "contingency_d": "<int>"
+    },
+    "... (3 items)"
+  ],
+  "interpretive_summary": {
+    "headline": "<str>",
+    "contrast_top5_vs_top10": {
+      "traffic_share_gain": "<float>",
+      "hotspot_share_gain": "<float>",
+      "exceedance_share_gain": "<float>",
+      "rr_ratio": "<float>",
+      "or_ratio": "<float>"
+    },
+    "contrast_top10_vs_top20": {
+      "active_footprint_ratio": "<float>",
+      "traffic_share_gain": "<float>",
+      "hotspot_share_gain": "<float>",
+      "exceedance_share_gain": "<float>",
+      "rr_ratio": "<float>",
+      "or_ratio": "<float>"
+    }
+  }
+}

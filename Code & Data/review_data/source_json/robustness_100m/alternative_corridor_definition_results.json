@@ -1,0 +1,18 @@
+{
+  "alternative_definition": "<str>",
+  "corridor_cells_unique_definition": "<int>",
+  "jaccard_with_point_count_corridor": "<float>",
+  "point_count_only_cells": "<int>",
+  "unique_only_cells": "<int>",
+  "corridor_congested_alt": "<int>",
+  "corridor_not_congested_alt": "<int>",
+  "noncorridor_congested_alt": "<int>",
+  "noncorridor_not_congested_alt": "<int>",
+  "rr_alt": "<float>",
+  "rr_ci_95_lower_alt": "<float>",
+  "rr_ci_95_upper_alt": "<float>",
+  "or_adj_alt": "<float>",
+  "or_ci_95_lower_alt": "<float>",
+  "or_ci_95_upper_alt": "<float>",
+  "fisher_p_alt": "<float>"
+}

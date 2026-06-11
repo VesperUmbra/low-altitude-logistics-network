@@ -1,0 +1,3 @@
+vendor,nodes,edges,components,largest_component_share_pct,mean_local_clustering,average_degree,max_degree,max_strength_orders
+MT,75,82,8,24.0,0.226,2.19,8,6365
+SF,63,65,3,90.5,0.013,2.06,16,2823

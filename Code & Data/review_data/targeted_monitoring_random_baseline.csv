@@ -1,0 +1,6 @@
+strategy,cells_monitored,mean_random_exceedance_share,p95_random_exceedance_share,observed_exceedance_share,observed_over_random_mean,observed_over_random_p95
+
+exact_anchor_cells,48,0.003900083307299802,0.019772987608039146,0.269165885660731,69.01541953140645,13.612808089319577
+
+buffer1_anchor_cells,235,0.018589774028949287,0.054445485785691965,0.3646360512339894,19.61487270722887,6.6972687629102605
+

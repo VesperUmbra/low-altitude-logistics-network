@@ -1,0 +1,43 @@
+{
+  "main_text_estimator": {
+    "input": "<str>",
+    "bin_width": "<int>",
+    "min_samples": "<int>",
+    "weighting": "<str>",
+    "rho_star": "<float>"
+  },
+  "alternative_specifications": {
+    "main_equal_weight_bins": {
+      "rho_star": "<float>",
+      "speed_drop_percent": "<float>",
+      "n_bins": "<int>",
+      "bin_width": "<int>",
+      "min_samples": "<int>",
+      "weighting": "<str>"
+    },
+    "count_weighted_bins": {
+      "rho_star": "<float>",
+      "speed_drop_percent": "<float>",
+      "n_bins": "<int>",
+      "bin_width": "<int>",
+      "min_samples": "<int>",
+      "weighting": "<str>"
+    },
+    "equal_weight_bins_min50": {
+      "rho_star": "<float>",
+      "speed_drop_percent": "<float>",
+      "n_bins": "<int>",
+      "bin_width": "<int>",
+      "min_samples": "<int>",
+      "weighting": "<str>"
+    },
+    "equal_weight_bins_width2": {
+      "rho_star": "<float>",
+      "speed_drop_percent": "<float>",
+      "n_bins": "<int>",
+      "bin_width": "<int>",
+      "min_samples": "<int>",
+      "weighting": "<str>"
+    }
+  }
+}

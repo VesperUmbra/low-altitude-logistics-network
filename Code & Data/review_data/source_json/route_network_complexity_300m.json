@@ -1,0 +1,91 @@
+{
+  "analysis_design": "<str>",
+  "merge_threshold_m": "<float>",
+  "input_archive": "<str>",
+  "route_network_300m": {
+    "nodes": "<int>",
+    "edges": "<int>",
+    "self_merged_orders_excluded": "<int>",
+    "density": "<float>",
+    "components": "<int>",
+    "largest_component_nodes": "<int>",
+    "largest_component_node_share": "<float>",
+    "average_degree": "<float>",
+    "average_strength_orders": "<float>",
+    "max_degree": "<int>",
+    "max_strength_orders": "<int>",
+    "mean_local_clustering": "<float>",
+    "degree_distribution_counts": {
+      "1": "<int>",
+      "2": "<int>",
+      "3": "<int>",
+      "4": "<int>",
+      "5": "<int>",
+      "6": "<int>",
+      "7": "<int>",
+      "8": "<int>",
+      "10": "<int>",
+      "16": "<int>"
+    },
+    "degree_distribution_shares": {
+      "degree_0_share": "<float>",
+      "degree_1_share": "<float>",
+      "degree_2_share": "<float>",
+      "degree_ge_3_share": "<float>"
+    },
+    "degree_gini": "<float>",
+    "strength_gini": "<float>"
+  },
+  "top_nodes_by_strength_orders": [
+    {
+      "cluster_id": "<int>",
+      "centroid_lat": "<float>",
+      "centroid_lon": "<float>",
+      "member_count": "<int>",
+      "degree": "<int>",
+      "strength_orders": "<int>",
+      "clustering_coeff": "<float>",
+      "component_id": "<int>",
+      "component_size": "<int>",
+      "betweenness_unweighted": "<float>",
+      "betweenness_unweighted_norm": "<float>",
+      "betweenness_invflow": "<float>",
+      "betweenness_invflow_norm": "<float>",
+      "member_cells": "<str>"
+    },
+    "... (10 items)"
+  ],
+  "top_nodes_by_inverse_flow_betweenness": [
+    {
+      "cluster_id": "<int>",
+      "centroid_lat": "<float>",
+      "centroid_lon": "<float>",
+      "member_count": "<int>",
+      "degree": "<int>",
+      "strength_orders": "<int>",
+      "clustering_coeff": "<float>",
+      "component_id": "<int>",
+      "component_size": "<int>",
+      "betweenness_unweighted": "<float>",
+      "betweenness_unweighted_norm": "<float>",
+      "betweenness_invflow": "<float>",
+      "betweenness_invflow_norm": "<float>",
+      "member_cells": "<str>"
+    },
+    "... (10 items)"
+  ],
+  "fine_route_skeleton_reference": {
+    "skeleton_edges": "<int>",
+    "skeleton_nodes": "<int>",
+    "skeleton_components": "<int>",
+    "mean_node_degree": "<float>",
+    "backbone_coverage_share": "<float>",
+    "skeleton_nodes_in_backbone_share": "<float>"
+  },
+  "interpretive_summary": {
+    "best_description": "<str>",
+    "reasoning": [
+      "... (4 items)"
+    ]
+  }
+}

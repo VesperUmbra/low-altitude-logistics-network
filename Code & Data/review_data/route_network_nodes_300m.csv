@@ -1,0 +1,6 @@
+cluster_id,centroid_lat,centroid_lon,member_count,degree,strength_orders,clustering_coeff,component_id,component_size,betweenness_unweighted,betweenness_unweighted_norm,betweenness_invflow,betweenness_invflow_norm,member_cells
+0,22.766006,113.891574,3,7,2658,0.095238,1,57,265.5,0.028499,214.0,0.022971,501_594;501_595;502_595
+1,22.788555,113.880064,2,1,784,0.0,1,57,0.0,0.0,0.0,0.0,526_583;527_583
+2,22.71936,113.919786,2,1,809,0.0,1,57,0.0,0.0,0.0,0.0,450_623;450_624
+3,22.7317,113.934247,1,1,327,0.0,1,57,0.0,0.0,0.0,0.0,463_638
+4,22.737445,113.8957,1,1,398,0.0,1,57,0.0,0.0,0.0,0.0,470_599

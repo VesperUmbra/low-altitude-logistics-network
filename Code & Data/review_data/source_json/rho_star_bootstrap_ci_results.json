@@ -1,0 +1,9 @@
+{
+  "n_bootstraps": "<int>",
+  "original_rho_star": "<float>",
+  "bootstrap_mean": "<float>",
+  "bootstrap_median": "<float>",
+  "bootstrap_std": "<float>",
+  "ci_95_lower": "<float>",
+  "ci_95_upper": "<float>"
+}

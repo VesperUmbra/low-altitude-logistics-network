@@ -1,0 +1,7 @@
+{
+  "total_cells": "<int>",
+  "active_cells": "<int>",
+  "original_ratio_percent": "<float>",
+  "convex_hull_ratio_percent": "<float>",
+  "message": "<str>"
+}

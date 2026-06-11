@@ -1,0 +1,16 @@
+{
+  "density_definition": "<str>",
+  "flow_definition": "<str>",
+  "speed_definition": "<str>",
+  "n_cell_windows": "<int>",
+  "rho_star_unique_reference": "<float>",
+  "density_range": [
+    "... (2 items)"
+  ],
+  "speed_range": [
+    "... (2 items)"
+  ],
+  "flow_entries_per_hour_range": [
+    "... (2 items)"
+  ]
+}

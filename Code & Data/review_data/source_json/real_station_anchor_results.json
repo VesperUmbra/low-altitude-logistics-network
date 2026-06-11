@@ -1,0 +1,188 @@
+{
+  "anchor_name": "<str>",
+  "description": "<str>",
+  "query_timestamp_utc": "<str>",
+  "rho_star_used": "<float>",
+  "raw_csv": "<str>",
+  "station_workbook": "<str>",
+  "counts_from_raw": {
+    "cleaned_points": "<int>",
+    "valid_orders": "<int>",
+    "active_cells": "<int>",
+    "backbone_cells": "<int>",
+    "hotspot_cells": "<int>",
+    "endpoint_cells": "<int>",
+    "total_exceedance_samples": "<int>",
+    "total_cell_window_samples": "<int>"
+  },
+  "anchor_sets": {
+    "all_shenzhen_sites": {
+      "station_metadata": {
+        "site_rows": "<int>",
+        "unique_site_names": "<int>",
+        "unique_anchor_cells": "<int>",
+        "platform_counts": {
+          "美团": "<int>",
+          "顺丰丰翼": "<int>"
+        },
+        "test_site_rows": "<int>",
+        "open_time_examples": [
+          "... (10 items)"
+        ]
+      },
+      "exact_anchor_cells": {
+        "anchor_cells": "<int>",
+        "active_cells_covered": "<int>",
+        "active_cells_covered_share": "<float>",
+        "backbone_cells_covered": "<int>",
+        "backbone_cells_covered_share": "<float>",
+        "hotspot_cells_covered": "<int>",
+        "hotspot_cells_covered_share": "<float>",
+        "endpoint_cells_covered": "<int>",
+        "endpoint_cells_covered_share": "<float>",
+        "exceedance_samples_covered": "<int>",
+        "exceedance_samples_covered_share": "<float>",
+        "sample_rr_exceedance": "<float>",
+        "sample_rr_exceedance_ci": [
+          "... (2 items)"
+        ],
+        "contingency": {
+          "anchor_and_exceedance": "<int>",
+          "anchor_and_non_exceedance": "<int>",
+          "non_anchor_and_exceedance": "<int>",
+          "non_anchor_and_non_exceedance": "<int>"
+        }
+      },
+      "buffer1_anchor_cells": {
+        "anchor_cells": "<int>",
+        "active_cells_covered": "<int>",
+        "active_cells_covered_share": "<float>",
+        "backbone_cells_covered": "<int>",
+        "backbone_cells_covered_share": "<float>",
+        "hotspot_cells_covered": "<int>",
+        "hotspot_cells_covered_share": "<float>",
+        "endpoint_cells_covered": "<int>",
+        "endpoint_cells_covered_share": "<float>",
+        "exceedance_samples_covered": "<int>",
+        "exceedance_samples_covered_share": "<float>",
+        "sample_rr_exceedance": "<float>",
+        "sample_rr_exceedance_ci": [
+          "... (2 items)"
+        ],
+        "contingency": {
+          "anchor_and_exceedance": "<int>",
+          "anchor_and_non_exceedance": "<int>",
+          "non_anchor_and_exceedance": "<int>",
+          "non_anchor_and_non_exceedance": "<int>"
+        }
+      },
+      "buffer2_anchor_cells": {
+        "anchor_cells": "<int>",
+        "active_cells_covered": "<int>",
+        "active_cells_covered_share": "<float>",
+        "backbone_cells_covered": "<int>",
+        "backbone_cells_covered_share": "<float>",
+        "hotspot_cells_covered": "<int>",
+        "hotspot_cells_covered_share": "<float>",
+        "endpoint_cells_covered": "<int>",
+        "endpoint_cells_covered_share": "<float>",
+        "exceedance_samples_covered": "<int>",
+        "exceedance_samples_covered_share": "<float>",
+        "sample_rr_exceedance": "<float>",
+        "sample_rr_exceedance_ci": [
+          "... (2 items)"
+        ],
+        "contingency": {
+          "anchor_and_exceedance": "<int>",
+          "anchor_and_non_exceedance": "<int>",
+          "non_anchor_and_exceedance": "<int>",
+          "non_anchor_and_non_exceedance": "<int>"
+        }
+      }
+    },
+    "operational_sites": {
+      "station_metadata": {
+        "site_rows": "<int>",
+        "unique_site_names": "<int>",
+        "unique_anchor_cells": "<int>",
+        "platform_counts": {
+          "美团": "<int>",
+          "顺丰丰翼": "<int>"
+        },
+        "test_site_rows": "<int>",
+        "open_time_examples": [
+          "... (10 items)"
+        ]
+      },
+      "exact_anchor_cells": {
+        "anchor_cells": "<int>",
+        "active_cells_covered": "<int>",
+        "active_cells_covered_share": "<float>",
+        "backbone_cells_covered": "<int>",
+        "backbone_cells_covered_share": "<float>",
+        "hotspot_cells_covered": "<int>",
+        "hotspot_cells_covered_share": "<float>",
+        "endpoint_cells_covered": "<int>",
+        "endpoint_cells_covered_share": "<float>",
+        "exceedance_samples_covered": "<int>",
+        "exceedance_samples_covered_share": "<float>",
+        "sample_rr_exceedance": "<float>",
+        "sample_rr_exceedance_ci": [
+          "... (2 items)"
+        ],
+        "contingency": {
+          "anchor_and_exceedance": "<int>",
+          "anchor_and_non_exceedance": "<int>",
+          "non_anchor_and_exceedance": "<int>",
+          "non_anchor_and_non_exceedance": "<int>"
+        }
+      },
+      "buffer1_anchor_cells": {
+        "anchor_cells": "<int>",
+        "active_cells_covered": "<int>",
+        "active_cells_covered_share": "<float>",
+        "backbone_cells_covered": "<int>",
+        "backbone_cells_covered_share": "<float>",
+        "hotspot_cells_covered": "<int>",
+        "hotspot_cells_covered_share": "<float>",
+        "endpoint_cells_covered": "<int>",
+        "endpoint_cells_covered_share": "<float>",
+        "exceedance_samples_covered": "<int>",
+        "exceedance_samples_covered_share": "<float>",
+        "sample_rr_exceedance": "<float>",
+        "sample_rr_exceedance_ci": [
+          "... (2 items)"
+        ],
+        "contingency": {
+          "anchor_and_exceedance": "<int>",
+          "anchor_and_non_exceedance": "<int>",
+          "non_anchor_and_exceedance": "<int>",
+          "non_anchor_and_non_exceedance": "<int>"
+        }
+      },
+      "buffer2_anchor_cells": {
+        "anchor_cells": "<int>",
+        "active_cells_covered": "<int>",
+        "active_cells_covered_share": "<float>",
+        "backbone_cells_covered": "<int>",
+        "backbone_cells_covered_share": "<float>",
+        "hotspot_cells_covered": "<int>",
+        "hotspot_cells_covered_share": "<float>",
+        "endpoint_cells_covered": "<int>",
+        "endpoint_cells_covered_share": "<float>",
+        "exceedance_samples_covered": "<int>",
+        "exceedance_samples_covered_share": "<float>",
+        "sample_rr_exceedance": "<float>",
+        "sample_rr_exceedance_ci": [
+          "... (2 items)"
+        ],
+        "contingency": {
+          "anchor_and_exceedance": "<int>",
+          "anchor_and_non_exceedance": "<int>",
+          "non_anchor_and_exceedance": "<int>",
+          "non_anchor_and_non_exceedance": "<int>"
+        }
+      }
+    }
+  }
+}

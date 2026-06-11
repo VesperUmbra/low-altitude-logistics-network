@@ -1,0 +1,13 @@
+{
+  "hotspot_cells": "<int>",
+  "hotspot_share_active_cells": "<float>",
+  "hotspot_share_full_grid": "<float>",
+  "top_0_5pct_active_cells_congestion_share": "<float>",
+  "top_1pct_active_cells_congestion_share": "<float>",
+  "congested_samples_in_corridors_share": "<float>",
+  "interface_like_cells": "<int>",
+  "interface_like_share_active_cells": "<float>",
+  "interface_like_corridor_overlap": "<float>",
+  "congested_samples_in_interface_like_cells_share": "<float>",
+  "congested_samples_in_corridor_interface_overlap_share": "<float>"
+}

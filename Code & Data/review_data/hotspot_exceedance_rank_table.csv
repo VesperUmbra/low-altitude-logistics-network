@@ -1,0 +1,6 @@
+exceedance_rank,grid_cell_id,exceedance_count,exceedance_share,cumulative_exceedance_share,total_cell_window_samples,traffic_rank,is_backbone_cell,is_endpoint_cell,is_endpoint_buffer1_cell,rho_star_reference
+1,378_730,3065,0.06383421847339373,0.06383421847339373,3782,1,True,False,False,11.5
+2,329_762,1967,0.04096636467770488,0.10480058315109861,3343,2,True,False,False,11.5
+3,391_726,1867,0.03888368218265126,0.14368426533374987,2490,4,True,False,False,11.5
+4,233_640,1730,0.036030407164427784,0.17971467249817766,2604,3,True,False,False,11.5
+5,369_743,1452,0.030240549828178694,0.20995522232635636,2013,7,True,False,False,11.5

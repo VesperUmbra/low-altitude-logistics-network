@@ -1,0 +1,83 @@
+{
+  "n_permutations": "<int>",
+  "observed_coupling": {
+    "rr": "<float>",
+    "or_adj": "<float>",
+    "rho_star": "<float>"
+  },
+  "time_shuffle_null": {
+    "design": "<str>",
+    "rr": {
+      "n_values": "<int>",
+      "n_finite": "<int>",
+      "observed": "<float>",
+      "mean": "<float>",
+      "median": "<float>",
+      "ci_95_lower": "<float>",
+      "ci_95_upper": "<float>",
+      "max": "<float>",
+      "empirical_p_ge_observed": "<float>"
+    },
+    "or_adj": {
+      "n_values": "<int>",
+      "n_finite": "<int>",
+      "observed": "<float>",
+      "mean": "<float>",
+      "median": "<float>",
+      "ci_95_lower": "<float>",
+      "ci_95_upper": "<float>",
+      "max": "<float>",
+      "empirical_p_ge_observed": "<float>"
+    }
+  },
+  "random_backbone_label_null": {
+    "design": "<str>",
+    "rr": {
+      "n_values": "<int>",
+      "n_finite": "<int>",
+      "observed": "<float>",
+      "mean": "<float>",
+      "median": "<float>",
+      "ci_95_lower": "<float>",
+      "ci_95_upper": "<float>",
+      "max": "<float>",
+      "empirical_p_ge_observed": "<float>"
+    },
+    "or_adj": {
+      "n_values": "<int>",
+      "n_finite": "<int>",
+      "observed": "<float>",
+      "mean": "<float>",
+      "median": "<float>",
+      "ci_95_lower": "<float>",
+      "ci_95_upper": "<float>",
+      "max": "<float>",
+      "empirical_p_ge_observed": "<float>"
+    }
+  },
+  "od_endpoint_reassignment_null": {
+    "design": "<str>",
+    "endpoint_cell_share": {
+      "n_values": "<int>",
+      "n_finite": "<int>",
+      "observed": "<float>",
+      "mean": "<float>",
+      "median": "<float>",
+      "ci_95_lower": "<float>",
+      "ci_95_upper": "<float>",
+      "max": "<float>",
+      "empirical_p_ge_observed": "<float>"
+    },
+    "endpoint_buffer_one_share": {
+      "n_values": "<int>",
+      "n_finite": "<int>",
+      "observed": "<float>",
+      "mean": "<float>",
+      "median": "<float>",
+      "ci_95_lower": "<float>",
+      "ci_95_upper": "<float>",
+      "max": "<float>",
+      "empirical_p_ge_observed": "<float>"
+    }
+  }
+}
