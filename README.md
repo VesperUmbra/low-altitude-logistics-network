@@ -12,18 +12,11 @@ This repository contains the analysis code, processed outputs, and figure-genera
 
 The study analyzes 46,409 drone delivery trajectories reconstructed from 3,867,146 cleaned telemetry records in Shenzhen, China (October 2024, 22 operating days). Using a 100 m × 2 min gridded framework, it shows that routine drone delivery operates through a sparse, hierarchical, and station-anchored low-altitude logistics network rather than a diffuse collection of flights.
 
-**Key findings:**
-- Activity occupies **2.0%** of the administrative-extent analysis grid
-- The top **10%** of active cells (intensity backbone) carry **76.3%** of point-weighted traffic
-- **210** recurrent endpoint cells and **66** mapped drone stations anchor the high-load network
-- Low-speed high-record states are concentrated around station neighborhoods and detectable on busy route segments
-- Surface-network time advantages are distance- and speed-dependent
-
 ---
 
 ## ⚠️ Important: Raw Data Access
 
-**The complete raw telemetry data is excluded from this repository.**
+**The complete raw data files are excluded from this repository.**
 
 Processed data files (CSV) are provided in truncated form (header + 5 rows) for format inspection only. Structured analysis outputs (JSON) have had values stripped, retaining only the key/schema structure. Full data files can be requested by email:
 
